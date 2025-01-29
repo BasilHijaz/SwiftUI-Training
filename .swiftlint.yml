@@ -1,0 +1,57 @@
+# Apple sample code swiftlint configuration.
+
+excluded: # paths to ignore during linting.
+ - build
+
+line_length: 150
+
+number_separator:
+ minimum_length: 5
+
+large_tuple:
+ warning: 4
+ error: 5
+
+trailing_whitespace:
+ ignores_empty_lines: false
+
+opt_in_rules:
+ - attributes
+ - closure_end_indentation
+ - closure_spacing
+ - explicit_init
+ - first_where
+ - nimble_operator
+ - number_separator
+ - overridden_super_call
+ - operator_usage_whitespace
+ - object_literal
+ - prohibited_super_call
+ - redundant_nil_coalescing
+
+disabled_rules:
+ - explicit_enum_raw_value
+ - cyclomatic_complexity
+
+type_body_length:
+ warning: 400
+ error: 2000
+
+function_body_length:
+  warning: 150
+  error: 250
+
+file_length:
+ warning: 1000
+ error: 7000
+
+identifier_name:
+  min_length: 2
+  max_length: 55
+
+type_name:
+  min_length: 3
+  max_length: 55
+
+function_parameter_count:
+ warning: 6

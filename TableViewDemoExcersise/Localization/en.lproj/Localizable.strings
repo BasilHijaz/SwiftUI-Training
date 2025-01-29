@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  TableViewDemoExcersise
+
+  Created by Basil Hijaz on 19/01/2025.
+  
+*/
+// LocalizationKey.swift
+"person_table.storyboard_name" = "Main";
+"person_table_app.app_description_popover.title.text" = "TableView Demo Exercise";
+"person_table_app.app_description_popover.message.text" =
+"This is a Macos application built mainly for practice. It basically shows a list of people in a Table View with functionality of adding new people and deleting existing people.";
+"person_table_app.filter_placeholder.text" = "Filter";
+"person_table_app.selected_item_description_label.text" = "Selected Item: - ";
+"person_table_app.add_person_view_controller.identifier.text" = "AddPersonViewController";
+"person_table_app.app_description_popover_view_controller.identifier.text" = "AppDescriptionPopoverViewController";
+"person_table_error.unable_to_display_add_person.error_description.text" = "Failed to instantiate AddPersonViewController";
+"add_person_loading_progress_view.add_person_loading_status.in_progress" = "Adding Person In Progress";
+"person_table_app.add_person.name_text_field.placeholder.text" = "Name";
+"person_table_app.add_person.button.title.text" = "Add Person";
+"person_table_app.add_person_back_button.title.text" = "Back";
+"person_table_alert.empty_field_message_title.text" = "Missing Information";
+"person_table_alert.empty_field_message.description.text" = "Please fill in both the name and image fields.";
+"person_table.description_image_options.star.text" = "Star";
+"person_table.description_image_options.pc.text" = "PC";
+"person_table.table_menu_options.delete.text" = "Delete";
+"person_table.table_view_columns.name.text" = "Name";
+"person_table.table_view_columns.identifier.text" = "ID";
+"person_table.table_view_columns.description_image.text" = "Description Image";
+"person_table_alert.name_should_be_unique_message_title.text" = "Name Not Unique";
+"person_table_alert.name_should_be_unique_message.description.text" = "Please Make sure to enter a Unique Name";
+"person_table_alert.confirmation_button.text" = "OK";
